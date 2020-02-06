@@ -1,0 +1,3 @@
+default: -p pretty -p json
+pretty: --format pretty
+json: --format json --out=results/cucumber.json
